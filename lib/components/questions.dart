@@ -9,7 +9,7 @@ class QuisQuestionModel {
   final String question;
   final String correctAnswer;
   final List<String> options;
-  final String imagePath; // Caminho da imagem associada à pergunta
+  final String imagePath; 
 
   QuisQuestionModel({
     required this.question,
