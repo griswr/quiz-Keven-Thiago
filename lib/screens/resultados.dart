@@ -78,7 +78,7 @@ class ResultPage extends StatelessWidget {
                 minimumSize: const Size(200, 60),
                  
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(90), // Ajuste o valor do raio aqui
+                  borderRadius: BorderRadius.circular(90), 
                 ),
               ),
                 child: const Text(
