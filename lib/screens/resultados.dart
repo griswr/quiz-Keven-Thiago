@@ -76,7 +76,7 @@ class ResultPage extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                 primary: const Color.fromARGB(255, 0, 0, 0),
                 minimumSize: const Size(200, 60),
-                 // Ajuste a altura mínima aqui
+                 
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(90), // Ajuste o valor do raio aqui
                 ),
