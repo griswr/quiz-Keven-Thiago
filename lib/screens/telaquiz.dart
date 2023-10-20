@@ -53,13 +53,13 @@ class _PlayQuizPageState extends State<PlayQuizPage> {
                   children: [
                     Positioned(
                       top:
-                          80, // Ajuste o valor de 'top' conforme necessário para mover o contador para baixo
+                          80, 
                       right:
-                          10, // Ajuste o valor de 'right' conforme necessário
+                          10, 
                       child: Container(
                         margin: EdgeInsets.only(
                             top:
-                                25), // Ajuste a margem superior conforme necessário
+                                25), 
                         child: Text(
                           "${nextQuestionIndex + 1}/${shuffledQuestions.length}",
                           style: const TextStyle(
