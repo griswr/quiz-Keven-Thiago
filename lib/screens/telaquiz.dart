@@ -114,7 +114,7 @@ class _PlayQuizPageState extends State<PlayQuizPage> {
                               });
                             },
                             child: Container(
-                              width: 280, // Largura fixa de 200 pixels
+                              width: 280, 
                               height: 50,
                               margin: const EdgeInsets.only(bottom: 15),
                               decoration: BoxDecoration(
