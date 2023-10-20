@@ -132,11 +132,11 @@ class _PlayQuizPageState extends State<PlayQuizPage> {
                   padding: const EdgeInsets.all(15.0),
                   child: Column(
                     children: [
-                      // Exibe a imagem associada à pergunta
+                      
                       Image.asset(
                         model.imagePath,
                         width:
-                            200, // Ajuste o tamanho da imagem conforme necessário
+                            200, 
                         height: 200,
                       ),
                       const SizedBox(height: 20),
@@ -150,25 +150,25 @@ class _PlayQuizPageState extends State<PlayQuizPage> {
                         ),
                       ),
                       const SizedBox(height: 20),
-                      // Centralize a pergunta acima da primeira pílula
+                      
                       Center(
                         child: Text(
                           model.question,
                           style: const TextStyle(
                             color: Color.fromARGB(255, 0, 0, 0),
-                            fontSize: 24, // Tamanho da fonte ajustável
+                            fontSize: 24, 
                             fontWeight: FontWeight.w500,
                           ),
                         ),
                       ),
                       const SizedBox(height: 20),
-                      // Restante do seu código para exibir as opções e lidar com respostas
+                      
                     ],
                   ),
                 );
               },
             ),
-            // O resto do seu código permanece inalterado
+            
           ],
         ),
       ),
