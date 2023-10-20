@@ -14,7 +14,7 @@ class StartQuizPage extends StatelessWidget {
             begin: Alignment.centerLeft,
             end: Alignment.topRight,
             colors: [
-              const Color.fromARGB(255, 255, 255, 255), // Change the gradient colors
+              const Color.fromARGB(255, 255, 255, 255), 
               const Color.fromARGB(255, 255, 255, 255),
             ],
           ),
